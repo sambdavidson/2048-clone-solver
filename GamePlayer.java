@@ -133,7 +133,7 @@ public class GamePlayer extends JFrame implements KeyListener{
 	}
 	// Up - 0 - 00; Down - 1 - 01; Left - 2 - 10; Right - 3 - 11; 
 	public int findBestMovePoints() {
-		int depth = 4;
+		int depth = 3;
 		
 		GamePlayerDataCopy gameCopy = new GamePlayerDataCopy(gameBox);
 		int bestHistory = gameCopy.findBestMovePoints(0, depth, 0);
