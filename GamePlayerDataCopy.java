@@ -1,6 +1,5 @@
 package clone2048;
 
-import java.util.HashMap;
 
 /**
  * Use for predicting best moves. Its a miniature version of GamePlayer that holds its own grid and performs its own private moves

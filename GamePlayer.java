@@ -28,7 +28,7 @@ public class GamePlayer extends JFrame implements KeyListener{
 	private BorderLayout[][] layoutGrid;
 	private JLabel[][] labelGrid;
 	
-	public static HashMap<Integer, Integer> combinationMap = new HashMap();
+	public static HashMap<Integer, Integer> combinationMap = new HashMap<>();
 
 	public static void main(String[] args) {
 
