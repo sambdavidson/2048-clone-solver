@@ -200,6 +200,30 @@ public class GamePlayer extends JFrame implements KeyListener{
 		return 0;
 	}
 	
+	public int findRandomMove() {
+		double r = Math.random();
+		if(r < 0.25)
+		{
+			gameBox.upMove();
+		}
+		else if(r < 0.5)
+		{
+			gameBox.downMove();
+		}
+		else if(r < 0.75)
+		{
+			gameBox.rightMove();
+		}
+		else
+		{
+			gameBox.leftMove();
+		}
+
+    	refreshDrawnBoxes();
+    	scoreLabel.setText("Score: " + currentScore);
+		return 0;
+	}
+	
 	public int findBestMoveNumberSize() {
 		
 		return 0;
@@ -236,6 +260,9 @@ public class GamePlayer extends JFrame implements KeyListener{
         	break;
         case KeyEvent.VK_C :
         	findBestMoveComplexity();
+        	break;
+        case KeyEvent.VK_R:
+        	findRandomMove();
         	break;
 	    }
 
