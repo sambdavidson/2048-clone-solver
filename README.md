@@ -1,7 +1,7 @@
 2048-clone-solver
 =================
 
-A clone of the iPhone game 2048. Tries to give the best possible move to make.
+A clone of the iPhone game 2048. Attempts to make the best possible move.
 
 Controls:
 - Use arrow keys to move the blocks. 
