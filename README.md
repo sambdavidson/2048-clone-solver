@@ -1,6 +1,7 @@
 2048-clone-solver
 =================
 ![Game Screenshot](docs/images/screenshot.png)
+
 A clone of the iPhone game 2048. Attempts to make the best possible move.
 
 Controls:
