@@ -1,6 +1,6 @@
 2048-clone-solver
 =================
-
+![Game Screenshot](docs/images/screenshot.png)
 A clone of the iPhone game 2048. Attempts to make the best possible move.
 
 Controls:
@@ -17,6 +17,6 @@ The algorithm recursively searches many moves comparing the score after each sea
 If a new high score is found, the `long` that represents that history of moves is saved.
 After trying all moves to a given turn depth, the program returns the first move associated with the highest scoring history.
 
-The solver is at most adequate. Because of the random generation of tiles which the solver does not take into account for, the best move is only a rough estimate. I would say this solver is better than a beginner but much worse than an experience player. It has never gotten close to the 2048 tile but has beaten my personal high score before. I am very bad at 2048.
+The solver is at most adequate. Because of the random generation of tiles which the solver does not take into account for, the best move is only a rough estimate. I would say this solver is better than a beginner but much worse than an experienced player. It has never gotten close to the 2048 tile but has beaten my personal high score before. I am very bad at 2048.
 
 
