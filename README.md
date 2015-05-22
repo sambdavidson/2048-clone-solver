@@ -8,6 +8,7 @@ Controls:
 - Use arrow keys to move the blocks. 
 - Press "p" to make an auto-move based on point total prediction.
 - Press "c" to make an auto-move based on board complexity prediction.
+- Press "r" to make a completely random move.
 
 This is proof of concept and I have no intention of continuing work on this project.
 
